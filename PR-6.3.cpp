@@ -12,7 +12,6 @@ void Create(int* a, const int size, const int Low, const int High)
 void Print(int* a, const int size)
 {
 	for (int i = 0; i < size; i++)
-
 		cout << "a[" << setw(2) << i << " ] = " << setw(4) << a[i] << endl;
 	cout << endl;
 }
